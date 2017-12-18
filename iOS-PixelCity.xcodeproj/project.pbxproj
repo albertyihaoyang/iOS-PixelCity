@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DBF44DB73A695A0C22375AE /* Pods_iOS_PixelCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F6A2C1E4A15858E2B792C /* Pods_iOS_PixelCity.framework */; };
 		E543C4101FE6DB860043E865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C40F1FE6DB860043E865 /* AppDelegate.swift */; };
-		E543C4121FE6DB860043E865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C4111FE6DB860043E865 /* ViewController.swift */; };
+		E543C4121FE6DB860043E865 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C4111FE6DB860043E865 /* MapVC.swift */; };
 		E543C4151FE6DB860043E865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E543C4131FE6DB860043E865 /* Main.storyboard */; };
 		E543C4171FE6DB860043E865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E543C4161FE6DB860043E865 /* Assets.xcassets */; };
 		E543C41A1FE6DB860043E865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E543C4181FE6DB860043E865 /* LaunchScreen.storyboard */; };
+		E543C4261FE6EBB40043E865 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C4251FE6EBB40043E865 /* DroppablePin.swift */; };
+		E543C4281FE6FE580043E865 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C4271FE6FE580043E865 /* PhotoCell.swift */; };
+		E543C42A1FE7163A0043E865 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C4291FE7163A0043E865 /* Constants.swift */; };
+		E543C42D1FE77A200043E865 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E543C42C1FE77A200043E865 /* PopVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5B98CBF8CF3E7289D42FDD0 /* Pods-iOS-PixelCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PixelCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PixelCity/Pods-iOS-PixelCity.release.xcconfig"; sourceTree = "<group>"; };
+		B39F6A2C1E4A15858E2B792C /* Pods_iOS_PixelCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_PixelCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E543C40C1FE6DB860043E865 /* iOS-PixelCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-PixelCity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E543C40F1FE6DB860043E865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E543C4111FE6DB860043E865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E543C4111FE6DB860043E865 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		E543C4141FE6DB860043E865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E543C4161FE6DB860043E865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E543C4191FE6DB860043E865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E543C41B1FE6DB860043E865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E543C4251FE6EBB40043E865 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		E543C4271FE6FE580043E865 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		E543C4291FE7163A0043E865 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E543C42C1FE77A200043E865 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		F42B1313F8E06AEB68F26D03 /* Pods-iOS-PixelCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PixelCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PixelCity/Pods-iOS-PixelCity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBF44DB73A695A0C22375AE /* Pods_iOS_PixelCity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DDF72CDAE6ABC648A4D736A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B39F6A2C1E4A15858E2B792C /* Pods_iOS_PixelCity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43BBD17E3601F7AEFE2AF9D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F42B1313F8E06AEB68F26D03 /* Pods-iOS-PixelCity.debug.xcconfig */,
+				A5B98CBF8CF3E7289D42FDD0 /* Pods-iOS-PixelCity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E543C4031FE6DB860043E865 = {
 			isa = PBXGroup;
 			children = (
 				E543C40E1FE6DB860043E865 /* iOS-PixelCity */,
 				E543C40D1FE6DB860043E865 /* Products */,
+				43BBD17E3601F7AEFE2AF9D2 /* Pods */,
+				0DDF72CDAE6ABC648A4D736A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,50 @@
 		E543C40E1FE6DB860043E865 /* iOS-PixelCity */ = {
 			isa = PBXGroup;
 			children = (
+				E543C4241FE6DBBD0043E865 /* Utilities */,
+				E543C4231FE6DBA20043E865 /* Controller */,
+				E543C4221FE6DBA00043E865 /* View */,
+				E543C4211FE6DB9E0043E865 /* Extensions */,
 				E543C40F1FE6DB860043E865 /* AppDelegate.swift */,
-				E543C4111FE6DB860043E865 /* ViewController.swift */,
 				E543C4131FE6DB860043E865 /* Main.storyboard */,
 				E543C4161FE6DB860043E865 /* Assets.xcassets */,
 				E543C4181FE6DB860043E865 /* LaunchScreen.storyboard */,
 				E543C41B1FE6DB860043E865 /* Info.plist */,
 			);
 			path = "iOS-PixelCity";
+			sourceTree = "<group>";
+		};
+		E543C4211FE6DB9E0043E865 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E543C4221FE6DBA00043E865 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E543C4251FE6EBB40043E865 /* DroppablePin.swift */,
+				E543C4271FE6FE580043E865 /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E543C4231FE6DBA20043E865 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E543C4111FE6DB860043E865 /* MapVC.swift */,
+				E543C42C1FE77A200043E865 /* PopVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E543C4241FE6DBBD0043E865 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E543C4291FE7163A0043E865 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E543C41E1FE6DB860043E865 /* Build configuration list for PBXNativeTarget "iOS-PixelCity" */;
 			buildPhases = (
+				903B040D36E6521DB5E7E4AF /* [CP] Check Pods Manifest.lock */,
 				E543C4081FE6DB860043E865 /* Sources */,
 				E543C4091FE6DB860043E865 /* Frameworks */,
 				E543C40A1FE6DB860043E865 /* Resources */,
+				467A0C7CEDAA2FC482F08A75 /* [CP] Embed Pods Frameworks */,
+				7D7A3DEEDF285E015B625B6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +202,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		467A0C7CEDAA2FC482F08A75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-PixelCity/Pods-iOS-PixelCity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-PixelCity/Pods-iOS-PixelCity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D7A3DEEDF285E015B625B6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-PixelCity/Pods-iOS-PixelCity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903B040D36E6521DB5E7E4AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-PixelCity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E543C4081FE6DB860043E865 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E543C4121FE6DB860043E865 /* ViewController.swift in Sources */,
+				E543C42D1FE77A200043E865 /* PopVC.swift in Sources */,
+				E543C42A1FE7163A0043E865 /* Constants.swift in Sources */,
+				E543C4281FE6FE580043E865 /* PhotoCell.swift in Sources */,
+				E543C4121FE6DB860043E865 /* MapVC.swift in Sources */,
+				E543C4261FE6EBB40043E865 /* DroppablePin.swift in Sources */,
 				E543C4101FE6DB860043E865 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +403,7 @@
 		};
 		E543C41F1FE6DB860043E865 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42B1313F8E06AEB68F26D03 /* Pods-iOS-PixelCity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +419,7 @@
 		};
 		E543C4201FE6DB860043E865 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B98CBF8CF3E7289D42FDD0 /* Pods-iOS-PixelCity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
