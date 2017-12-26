@@ -1,3 +1,5 @@
 # iOS-PixelCity
 
-An app using flickr API to fetch photos when user put Pin
+	An app pharsing information using Flickr API to fetch photos when users drop Pin on map
+	Using Alamofire to download urls
+	Performing 3D Touch function to show preview of picture
